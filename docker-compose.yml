@@ -1,0 +1,29 @@
+version: '3.7'
+services:
+  api:
+    build:
+      context: .
+      dockerfile: ./docker/flask.Dockerfile
+    volumes:
+      - '.:/app'
+      - './pdfs:/app/backend/api/static/pdfs'
+    ports:
+      - 5000:5000
+    env_file: .env
+
+  client:
+    build:
+      dockerfile: ./docker/react.Dockerfile
+      context: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - './frontend:/app'
+
+  load:
+    build:
+      dockerfile: ./docker/load.Dockerfile
+      context: .
+    volumes:
+      - './pdfs:/pdfs'
+        

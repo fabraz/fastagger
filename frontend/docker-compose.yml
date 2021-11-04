@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+
+  client:
+    build:
+      dockerfile: ../docker/react.Dockerfile
+      context: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/var/app
+      - /var/app/frontend/node_modules
+

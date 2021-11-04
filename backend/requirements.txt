@@ -1,0 +1,7 @@
+Flask
+Flask-Testing
+black
+gunicorn
+coverage
+flask_restful
+flask_cors
