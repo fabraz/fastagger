@@ -1,0 +1,7 @@
+flask
+pdf2image
+Flask-Testing
+coverage
+flask_restful
+flask_cors
+
