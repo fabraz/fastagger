@@ -2,7 +2,7 @@
 
 Fastagger is a stream segmentation label aiding tool. 
 
-# Operation
+## Operation
 
 Fastagger exports a pdf file pages to images and it serves them in its user interface, where you can label each page of the document, using the shorkeys (`N` - next page, `P` - previous page, `1` - new document, `2` - same document). You might want to download the json file with labels you have given to pages, by clicking on `save` button. 
 
@@ -10,18 +10,18 @@ In the picure bellow you can see Fastagger UI.
 
 ![fastagger](https://user-images.githubusercontent.com/674987/140752742-f706f50d-7cbe-4710-972a-988320cf0907.png)
 
-# How to run
+## How to run
 
-## Clone the repo
+### Clone the repo
 
 ```shell
 git clone https://github.com/fabraz/fastagger
 ```
 
-## Copy your pdfs
+### Copy your pdfs
 Every pdf you copy to the path `./pdfs will be available for labelling.
 
-## Docker run
+### Docker run
 
 ```shell
 docker-compose up -d --build
@@ -56,5 +56,5 @@ https://doi.org/10.1016/j.engappai.2021.104394.
     keywords = {Page Stream Segmentation, Classification},    
     }
 
-# How to Contribute
+## How to Contribute
 Just open your issues and/or pull requests, all are welcome 😃!
