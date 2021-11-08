@@ -27,6 +27,8 @@ Every pdf you copy to the path `./pdfs will be available for labelling.
 docker-compose up -d --build
 ```
 
+Check out Fastagger UI at `http://localhost:3000`
+
 ## Citation
 
 Fabricio Ataides Braz, Nilton Correia da Silva, Jonathan Alis Salgado Lima,
