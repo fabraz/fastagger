@@ -56,4 +56,5 @@ https://doi.org/10.1016/j.engappai.2021.104394.
     keywords = {Page Stream Segmentation, Classification},    
     }
 
-
+# How to Contribute
+Just open your issues and/or pull requests, all are welcome 😃!
