@@ -12,7 +12,7 @@
 
 #CMD ["serve", "-p", "3000", "-s", "./build/"]
 
-FROM node:lts-alpine as build-deps
+FROM node:16.8-alpine3.11 as build-deps
 WORKDIR /app
 COPY ./frontend /app
 RUN sed -i -e 's/http:/https:/' /etc/apk/repositories
